@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://task-manager-backend-production-e9d5.up.railway.app/api/tasks';
+const API_URL = 'https://internship-task-management-app-backend.onrender.com/api/tasks';
 
 export const getTasks = () => axios.get(API_URL);
 export const createTask = (task) => axios.post(API_URL, task);
